@@ -8,3 +8,7 @@ I've long been fascinated by the collision of OT (i.e. BAS, BMS, LMS, etc) with 
 My research here only captured raw counts of discovered devices and associated device manufacturers (vendors) - I did not ingest any site-identifying information (i.e. IPs, ISP, location, etc).
 
 The Apps Script project calls the Censys API and writes all results to a Google Sheet, which then gets consumed for a [viz layer in Tableau Public](https://public.tableau.com/app/profile/drew.depriest/viz/CensysExposedBASDevices/Dashboard1?publish=yes).
+
+Over the course of two years, the number of BACnet devices connected to public Interwebz **fell by 7.8%.**
+
+Modbus devices **increased by 2.3%**, and MQTT **rose by 13.3%.**
