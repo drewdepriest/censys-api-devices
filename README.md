@@ -1,5 +1,5 @@
 # censys-api-devices
-Daily call to Censys.io API to retrieve data on publicly-exposed BAS/BMS devices.
+Daily call to Censys.io API to retrieve data on publicly-exposed operational technology (OT) devices, generally assumed to be part of commercial building automation system (BAS) or building management systems (BMS).
 
 For two years, I ran this script on a daily trigger to call the [Censys](https://search.censys.io/) API in search of all publicly-exposed BACnet, MQTT, Modbus, and "Occupancy" devices. At the beginning of 2024, Censys started limiting their free tier of API to 60-days, so I decided to bring this experiment to a close. It ran faithfully from Feb 05th, 2022 to Feb 05th, 2024. 
 
